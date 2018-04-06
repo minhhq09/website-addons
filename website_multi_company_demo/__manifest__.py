@@ -5,7 +5,7 @@
     "category": "Hidden",
     # "live_test_URL": "",
     "images": [],
-    "version": "1.0.0",
+    "version": "10.0.1.0.0",
     "application": False,
 
     "author": "IT-Projects LLC, Ivan Yelizariev",
@@ -16,8 +16,8 @@
     # "currency": "EUR",
 
     "depends": [
-        "website_multi_company",
-        "website_sale",
+        "website_multi_company_sale",
+        "website_multi_company_blog",
         "theme_bootswatch",
     ],
     "external_dependencies": {"python": [], "bin": []},
@@ -28,10 +28,12 @@
     "demo": [
         "demo/res.company.csv",
         "demo/website.csv",
+        "demo/product_public_category_demo.xml",
         "demo/product.template.csv",
         "demo/ir.ui.view.csv",
         "demo/website.menu.csv",
         "demo/website_templates.xml",
+        "demo/website_blog.xml",
     ],
 
     "post_load": None,
